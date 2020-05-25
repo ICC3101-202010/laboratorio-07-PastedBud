@@ -96,7 +96,7 @@ namespace Lab07CarloVitali
                 primero = double.Parse(pantalla.Text);
                 pantalla.Clear();
             }
-            catch (Exception)
+            catch (System.FormatException)
             {
                 pantalla.Text = "Syntax ERROR";
                 
